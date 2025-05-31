@@ -77,10 +77,12 @@ nav a {
 }
 .adventure img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 h2 {
     text-align: center;
+    order: 0;
+    grid-column: span 6;
 }
 p,
 section,
@@ -137,4 +139,12 @@ h1 {
 
 hero article p {
     margin: 0;
+}
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
